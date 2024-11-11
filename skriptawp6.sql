@@ -13,10 +13,20 @@
 --vaucer bit
 --);
 
-create table grupe(
-sifra int,
-naziv varchar (20),
-velicinagrupe int,
-predavac varchar(50),
-smjer int
-)
+--create table grupe(
+--sifra int,
+--naziv varchar (20),
+--velicinagrupe int,
+--predavac varchar(50),
+--smjer int
+--)
+
+
+
+
+
+
+create table clanovi(
+grupa int,
+polaznik int,
+);
