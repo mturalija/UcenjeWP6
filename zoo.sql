@@ -9,3 +9,9 @@
 --prostorija int,
 --datum int
 --);
+
+use master;
+go
+drop datebase if exist zoo;
+go
+create datebase zoo
