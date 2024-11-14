@@ -13,9 +13,9 @@
 --sifra int not null primary key identity(1,1),
 --ime varchar(50) not null,
 --prezime varchar (50) not null,
---datum_rodjenja datatime,
+--datum_rodjenja datetime,
 --pozicija datetime,
---broj dresa datatime,
+--broj dresa datetime,
 --klub varchar(50) not null,
 --);
 
@@ -24,14 +24,14 @@
 --ime varchar(50) not null,
 --prezime varchar (50) not null,
 --datum_rodjenja datatime,
---pozicija datatime,
+--pozicija datetime,
 --klub (varchar) not null,
 --);
 
 --create table(klub
 --sifra int not null primary key identity(1,1),
 --naziv varchar(50)not null,
---osnovan datatime,
+--osnovan datetime,
 --stadion varchar(50)not null,
 --predsjednik varchar(50)not null,
 --drzava varchar (50)not null,
@@ -41,10 +41,10 @@
 
 --create table (utakmica
 --sifra int not null primary key identity (1,1),
---datum datatime,
---vrijeme datatime,
+--datum datetime,
+--vrijeme datetime,
 --lokacija varchar(50) not null,
---stadinon varchar(50),
---domaci-klub varchar(50),
---gostujuci-klub varchar(50),
+--stadinon varchar(50) not null,
+--domaci-klub varchar(50) not null,
+--gostujuci-klub varchar(50) not null,
 --);
