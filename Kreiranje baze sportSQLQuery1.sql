@@ -10,6 +10,13 @@
 --broj dresa datatime,
 --klub varchar(50),
 --);
+-- create table (trener
+--sifra int,
+--ime varchar(50),
+--prezime varchar (50),
+--datum_rodjenja datatime,
+--pozicija datatime,
+--klub (varchar),
 
 --create table(klub
 --sifra int,
