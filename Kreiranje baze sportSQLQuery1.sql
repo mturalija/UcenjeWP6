@@ -1,6 +1,14 @@
 --create database sport
 --drop database sport
 --use sport;
+--use master;
+--go;
+--drop database if exists sport;
+--go;
+--create date base sport;
+--go;
+--use sport;
+
 --create table( igrac
 --sifra int
 --ime varchar(50),
