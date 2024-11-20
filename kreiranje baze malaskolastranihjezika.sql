@@ -96,8 +96,13 @@ trajanje datetime,
 --('Dino', 'Dizdarević', '091856962'),
 --('Luka', 'Kordić', '091722589'),
 --('Ivan', 'Režan', '091854025'),
---('Antonio', 'Simpf', '091856936');
-
+--('Antonio', 'Simpf', '091856936'),
+--('Marko, ', 'Markic', '0918569651'),
+--('Kaja', 'Pavic', '091856935'),
+--('Mirko', 'Mirkovic', '091231279'),
+--('Miro', 'Mioc', '091879456'),
+--('Lucija', 'Mioc', 095479631'),
+--('Mirela', 'Mioc', 098759621');
 
 
 
