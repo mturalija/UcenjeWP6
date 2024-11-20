@@ -1,4 +1,4 @@
-use master
+﻿use master
 go
 drop database if exists malaskolastranihjezika;
 go
@@ -66,12 +66,23 @@ trajanje datetime,
 --insert into odgojne skupine (sifra,program,voditelj programa,)
 --values
 --1
---('RUE' 15,1),
+--('RUE' 10,1),
 --2
---('RUT' 15,1),
+--('RUT' 10,1),
 --3
---('RUF' 15,1);
+--('RUF' 10,1);
 
+--insert into polaznici programa ( ime, prezime, kontakt broj roditelja) VALUES
+--('Marko', 'Radoš', '091859635'),
+--('Tena', 'Vulić', '098248789'),
+--('Karlo', 'Bilić', '098789625'),
+--('Tin', 'Pintarić', '091958789'),
+--('Zoran', 'Pokupić', '098965145'),
+--('Matija', 'Pokupić', '091748514'),
+--('Marta', 'Došen', '091854032'),
+--('Luka', 'Valentić', '091854369'),
+--('Adam', 'Šoltić', '098521302'),
+--('Robert', 'Mateašić', '098741369'),
 
 
 
