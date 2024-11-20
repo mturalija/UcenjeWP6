@@ -83,6 +83,20 @@ trajanje datetime,
 --('Luka', 'Valentić', '091854369'),
 --('Adam', 'Šoltić', '098521302'),
 --('Robert', 'Mateašić', '098741369'),
+--('Tanja', 'Janus', '091576258'),
+--('Andrej', 'Mjeda', '098746325'),
+--('Marina (Josip)', 'Turalija', '098854126'),
+--('Bernarda', 'Lusch', '098413254'),
+--('Boris', 'Horvat', '0989325415'),
+--('Robert', 'Kokić', '091523652'),
+--('Ivan', 'Grevinger', '098854126'),
+--('Marko', 'Grgić', '098459625'),
+--('Pamela', 'Mandić', '098521746'),
+--('Darko', 'Azinović', '091475216'),
+--('Dino', 'Dizdarević', '091856962'),
+--('Luka', 'Kordić', '091722589'),
+--('Ivan', 'Režan', '091854025'),
+--('Antonio', 'Simpf', '091856936');
 
 
 
