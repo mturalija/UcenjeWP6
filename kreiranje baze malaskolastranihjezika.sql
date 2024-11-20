@@ -37,6 +37,44 @@ trajanje datetime,
 --polaznik int not null references polaznici(sifra)
 --);
 
+--create table voditelj programa(
+--sifra int not null primary identity key(1,1),
+--ime varchar (20) not null,
+--prezime(20) not null,
+--naziv programa varchar (50) not null,
+--e mail varchar (100) not null,
+--kontakt broj char(11),
+--);
+
+
+
+-- 1
+--insert into programi (naziv, cijena, trajanje, )
+--values ('Rano ucenje engleskog jezika',350.00,'2024-11-01 15:00',1);
+
+--insert into programi (naziv, cijena, trajanje, )
+--values ('Rano ucenje talijanskog jezika', 350.00, '2024-11-05 16:00',1);
+
+--insert into programi( (naziv, cijena, trajanje, )
+--values ('Rano ucenje francuskog jezika',350.00,'2024-11-015 17:00',1);
+
+-- 2
+--('Java programiranje',null,null,null),
+-- 3
+--('Serviseri',800,'2020-01-01',0);
+
+--insert into odgojne skupine (sifra,program,voditelj programa,)
+--values
+--1
+--('RUE' 15,1),
+--2
+--('RUT' 15,1),
+--3
+--('RUF' 15,1);
+
+
+
+
 
 
 
