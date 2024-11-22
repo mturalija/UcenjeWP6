@@ -69,6 +69,31 @@ select top 10 * from autor;
 INSERT into autor	(sifra, ime, prezime, datumrodenja)  
 values	(4,'Tomislav','Jakopec', '1980-12-07');
 
+select top 10 * from katalog;
+
+select top 10 a.ime, a.prezime, b.naslov,
+c.naziv
+from autor a inner join katalog b
+on a.sifra = b.autor
+inner join mjesto c
+on c.sifra = b.mjesto;
+
+
+
+select *
+from autor a right join katalog b
+on a.sifra=b.autor;
+
+
+use svastara;
+
+
+select count(*) from artikli; -- 52601
+select distinct artikl from ArtikliNaPrimci; --52599
+
+select * from artikli where
+sifra not in (select distinct artikl from ArtikliNaPrimci);
+
 
 
 
