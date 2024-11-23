@@ -12,28 +12,29 @@ create table programi(
 sifra int not null primary key identity(1,1),
 naziv varchar(50) not null,
 cijena decimal(18,2) null, 
-trajanje int not null references odgojneskupine(sifra),
+trajanje int not null
 );
 
-create table voditeljprograma(
+create table voditeljiprograma(
 sifra int not null primary key identity(1,1),
 ime varchar (20) not null,
 prezime varchar(20) not null,
-e mail varchar (50) not null,
-kontakt broj char(11),
+email varchar (50) not null,
+kontaktbroj char(11)
 );
 
 create table odgojneskupine(
 sifra int not null primary key identity (1,1),
-program varchar (30) not null,)
-voditeljprograma int not null references programi (sifra),
-
+naziv varchar (30) not null,
+voditeljiprograma int not null references voditeljiprograma (sifra)
+);
 
 create table polazniciprograma(
 sifra int not null primary key identity (1,1),
 ime varchar(50) not null,
 prezime varchar(50) not null,
-kontakt broj roditelja char (11),
+kontaktbrojroditelja varchar (11),
+);
 
 create table clanovi(
 grupa int not null references grupe(sifra),
