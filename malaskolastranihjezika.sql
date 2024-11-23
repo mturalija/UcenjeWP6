@@ -44,19 +44,15 @@ polaznik int not null references polaznici(sifra)
 
 
 
-insert into programi (naziv, cijena, trajanje,)
+insert into programi (naziv, cijena, trajanje)
 values ('Ranoucenjeengleskogjezika',350.00,'2024-11-01 15:00',1);
 
-insert into programi (naziv, cijena, trajanje,)
+insert into programi (naziv, cijena, trajanje)
 values ('Ranoucenjetalijanskogjezika', 350.00, '2024-11-05 16:00',1);
 
-insert into programi( (naziv, cijena, trajanje,)
+insert into programi( (naziv, cijena, trajanje)
 values ('Ranoucenjefrancuskogjezika',350.00,'2024-11-015 17:00',1);
 
-
-('Java programiranje',null,null,null),
- 
-('Serviseri',800,'2020-01-01',0);
 
 insert into odgojneskupine (sifra,program,voditelj programa,)
 values
@@ -65,7 +61,8 @@ values
 
 ('RUT' 10,1),
 
-('RUF' 10,1);
+('RUF' 10,1),
+);
 
 insert into polazniciprograma ( ime, prezime, kontaktbrojroditelja) VALUES
 ('Marko', 'Radoš', '091859635'),
