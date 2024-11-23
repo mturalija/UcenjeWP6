@@ -56,16 +56,23 @@ insert into programi( (naziv, cijena, trajanje),
 values ('Rano učenje francuskog jezika',350.00,'2024-11-015 17:00',1),
 );
 
+insert into voditeljiprograma(ime, prezime,email,kontaktbroj) VALUES
+('Ana', 'Petrović', 'ana.petrovic@email.com', '0633456789'),
+('Luka', 'Luketić', 'luka.luketic@email.com', '0625678901'),
+('Jelena', 'Jelić', 'jelena.jelic@email.com', '0633456901'),
+);
 
 
-insert into odgojneskupine (sifra,program,voditelj programa,)
+
+
+insert into odgojneskupine (naziv,voditelj programa,)
 values
 
-('RUE' 10,1),
+(,'RUE' 'Ana', 'Petrović', 'ana.petrovic@email.com', '0633456789',1),
 
-('RUT' 10,1),
+('RUT' 'Luka', 'Luketić', 'luka.luketic@email.com', '0625678901',1),
 
-('RUF' 10,1),
+('RUF' 'Jelena', 'Jelić', 'jelena.jelic@email.com', '0633456901',1),
 );
 
 insert into polazniciprograma ( ime, prezime, kontaktbrojroditelja) VALUES
