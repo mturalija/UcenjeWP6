@@ -12,7 +12,7 @@ create table programi(
 sifra int not null primary key identity(1,1),
 naziv varchar(50) not null,
 cijena decimal(18,2) null, 
-trajanje int not null
+trajanje time not null
 );
 
 create table voditeljiprograma(
@@ -49,7 +49,7 @@ values ('Rano učenje engleskog jezika',350.00,'15:00');
 
 
 insert into programi (naziv, cijena, trajanje)
-values ('Rano učenje talijanskog jezika', 350.00, '16:00');
+values ('Rano učenje talijanskog jezika', 350.00,'16:00');
 
 
 insert into programi (naziv, cijena, trajanje)
@@ -64,7 +64,7 @@ insert into voditeljiprograma(ime, prezime,email,kontaktbroj) VALUES
 
 
 
-insert into odgojneskupine (naziv,voditeljprograma)
+insert into odgojneskupine (naziv,voditeljiprograma)
 values
 
 ('RUE',1),
