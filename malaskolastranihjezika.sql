@@ -33,27 +33,27 @@ create table polazniciprograma(
 sifra int not null primary key identity (1,1),
 ime varchar(50) not null,
 prezime varchar(50) not null,
-kontaktbrojroditelja varchar (11),
+kontaktbrojroditelja varchar (11)
 );
 
 create table clanovi(
-grupa int not null references grupe(sifra),
-polaznik int not null references polaznici(sifra)
+grupa int not null references odgojneskupine(sifra),
+polaznik int not null references polazniciprograma(sifra) 
 );
 
 
 
 
 insert into programi (naziv, cijena, trajanje)
-values ('Rano učenje engleskog jezika',350.00,'2024-11-01 15:00');
+values ('Rano učenje engleskog jezika',350.00,'15:00');
 
 
 insert into programi (naziv, cijena, trajanje)
-values ('Rano učenje talijanskog jezika', 350.00, '2024-11-05 16:00');
+values ('Rano učenje talijanskog jezika', 350.00, '16:00');
 
 
 insert into programi (naziv, cijena, trajanje)
-values ('Rano učenje francuskog jezika',350.00,'2024-11-015 17:00');
+values ('Rano učenje francuskog jezika',350.00,'17:00');
 
 insert into voditeljiprograma(ime, prezime,email,kontaktbroj) VALUES
 ('Ana', 'Petrović', 'ana.petrovic@email.com', '0633456789'),
