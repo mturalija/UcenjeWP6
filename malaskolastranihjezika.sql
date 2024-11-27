@@ -45,15 +45,15 @@ polaznik int not null references polaznici(sifra)
 
 
 insert into programi (naziv, cijena, trajanje),
-values ('Rano učenje engleskog jezika',350.00,'2024-11-01 15:00',1),
+values ('Rano učenje engleskog jezika',350.00,'2024-11-01 15:00',),
 );
 
 insert into programi (naziv, cijena, trajanje),
-values ('Rano učenje talijanskog jezika', 350.00, '2024-11-05 16:00',1),
+values ('Rano učenje talijanskog jezika', 350.00, '2024-11-05 16:00',),
 );
 
 insert into programi( (naziv, cijena, trajanje),
-values ('Rano učenje francuskog jezika',350.00,'2024-11-015 17:00',1),
+values ('Rano učenje francuskog jezika',350.00,'2024-11-015 17:00',),
 );
 
 insert into voditeljiprograma(ime, prezime,email,kontaktbroj) VALUES
