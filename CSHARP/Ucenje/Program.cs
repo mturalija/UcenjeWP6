@@ -1,7 +1,7 @@
 ﻿
 
 using Ucenje;
-E03operatori Izvedi ()
+E03Z1 Izvedi ()
 
 E02Z1
 
