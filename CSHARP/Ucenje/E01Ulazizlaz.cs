@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ucenje
 {
-    internal class E01Ulazizlaz
+    internal class E01UlazIzlaz
     {
-
-
 
         public static void Izvedi()
         {
@@ -17,19 +15,16 @@ namespace Ucenje
             Console.Write("Unesi svoje ime: ");
 
 
-
-            //Ulaz podataka u program
+            // Ulaz podataka u program
             string Ime = Console.ReadLine();
-            Console.WriteLine(" Unijeli ste " + Ime);
+
+            Console.WriteLine("Unijeli ste " + Ime);
 
             // formatirani način ispisa
-
-            Console.WriteLine (Unijeli ste m)
-
+            Console.WriteLine("Unijeli ste {0}. Bravo!", Ime);
 
         }
 
+
     }
-
-
 }
