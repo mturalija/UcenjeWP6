@@ -10,7 +10,22 @@ namespace Ucenje
     {
         public static void Izvedi()
         {
-            Console.WriteLine();
+            // Console.WriteLine("E04");
+            Console.WriteLine("Unesi cijelibroj:");
+
+            int broj = int.Parse(Console.ReadLine());
+            if (broj % 2 == 0)
+            {
+                Console.WriteLine("Paran");
+            }
+            else
+            {
+                Console.WriteLine("Neparan");
+            }
+
+            Console.WriteLine(broj % 2 == 0 ? "paran" : "neparan");
+
+            
         }
     }
 }
