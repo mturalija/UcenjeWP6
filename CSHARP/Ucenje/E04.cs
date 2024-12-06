@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ucenje
 {
-    internal class E04UvjetnoGrananjeIf
+    internal class E05UvjetnoGrananjeSwitch.Izvedi();
     {
 
 
