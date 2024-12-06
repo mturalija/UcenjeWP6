@@ -13,6 +13,7 @@ namespace Ucenje
         {
             //Console.WriteLine(E04Z3);
             Console.WriteLine( "Unesi dva cijela broja");
+
         }
     }
 }
