@@ -1,9 +1,11 @@
 ﻿
 
 using Ucenje;
-E03Z1 Izvedi ()
 
-E02Z1
+E04UvjetnoGrananjeIf.Izvedi();
+//E03Z1 Izvedi ()
+
+//E02Z1
 
 
 //E02VarijableTipoviPodataka.Izvedi();
