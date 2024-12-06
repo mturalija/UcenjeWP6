@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\GitHub\\UcenjeWP6\\Vjezbanje doma\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1EB70A-86CD-4D27-BD7F-4A07C4076BFE}|Vjezbanje doma\\Vjezbanje doma.csproj|c:\\users\\dell\\documents\\github\\ucenjewp6\\vjezbanje doma\\vjezbanje doma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1EB70A-86CD-4D27-BD7F-4A07C4076BFE}|Vjezbanje doma\\Vjezbanje doma.csproj|solutionrelative:vjezbanje doma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\GitHub\\UcenjeWP6\\Vjezbanje doma\\Vjezbanje doma\\Program.cs",
+              "RelativeDocumentMoniker": "Vjezbanje doma\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\GitHub\\UcenjeWP6\\Vjezbanje doma\\Vjezbanje doma\\Program.cs",
+              "RelativeToolTip": "Vjezbanje doma\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:16:31.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
