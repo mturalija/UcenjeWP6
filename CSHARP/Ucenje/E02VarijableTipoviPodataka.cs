@@ -2,7 +2,7 @@
 
 namespace Ucenje
 {
-    //internal class E02VarijableTipoviPodataka
+    internal class E02VarijableTipoviPodataka
     {
 
 

@@ -8,29 +8,30 @@ namespace Ucenje
 {
     internal class E05UvjetnoGrananjeSwitch
     {
-    public static void Izvedi()
-      {
-        int i =2,
-                switch (i)
+        public static void Izvedi()
+        {
+            int i = 2;
+            switch (i)
             {
                 case 1:
                     Console.WriteLine("Nedovoljan");
                     break;
                 case 2:
-                    Console.WriteLine( "dovoljan");
+                    Console.WriteLine("dovoljan");
                     break;
                 default:
-                    Console.WriteLine( "Ostalo");
+                    Console.WriteLine("Ostalo");
                     break;
-               
-           
+
+
             }
+
             char znak = '@';
-            Console.WriteLine((znak);
+            Console.WriteLine(znak);
             Console.WriteLine((int)znak);
-            
+
         }
 
 
-
+    }
 }
