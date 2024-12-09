@@ -58,21 +58,21 @@ namespace Ucenje
 
             Console.WriteLine();
             int idiOd = 12;
-            int idiDo=34;
+            int idiDo = 34;
 
 
 
 
 
-       for(int i= idiOd; i <= idiDo; i++)
+            for (int i = idiOd; i <= idiDo; i++)
             {
-                Console.WriteLine( i);
+                Console.WriteLine(i);
             }
 
 
             int[] brojevi = { 1, 2, 3, 3, 32, 3, 3, 2, 3, 3, 3, };
 
-            for(int i =0; i< brojevi.Length; i++)
+            for (int i = 0; i < brojevi.Length; i++)
             {
 
                 Console.WriteLine(brojevi[i]);
@@ -81,6 +81,49 @@ namespace Ucenje
 
 
 
+            int[,] tablica =
+            {
+                {1,2,3 },
+                {4,5,6 },
+                {7,8,9},
+            };
+
+            for (int i = object, i< tablica.GetLength(0); i++)
+            {
+                for (int j = 0, i< tablica.GetLength(1); j++)
+                {
+                    Console.WriteLine(tablica[i, j] + " ");
+                }
+                Console.WriteLine();
+
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 3)
+                {
+                    continue
+                }
+                if (i == 7)
+                {
+                    break;
+
+                }
+                Console.WriteLine(i);
+
+            }
+
+            for (int i = 0; i >= 0, i++)
+            {
+                Console.WriteLine( i);
+                break;
+            }
+
+
+            for(; ; )
+            {
+                Console.WriteLine(new Random().NextInt64() + "" + new Random().NextInt64() + "" + new Random().NextInt64()); Thread.Sleep(300);
+            }
 
 
 
@@ -89,7 +132,11 @@ namespace Ucenje
 
 
 
-    }
+
+
+
+
+        }
 
 }
 }
