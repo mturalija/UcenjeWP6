@@ -1,12 +1,19 @@
 ﻿
 
 using Ucenje;
+E07ForPetlja.Izvedi();
 
-E04Z3.Izvedi();
-//E03Z1 Izvedi ()
+//E06Nizovi.Izvedi();
 
-//E02Z1
+//E05UvjetnoGrananjeSwitch.Izvedi();
 
+//E04Z1.Izvedi();
+
+//E04UvjetnoGrananjeIf.Izvedi();
+
+//E03Operatori.Izvedi();
+
+//E02Z1.Izvedi();
 
 //E02VarijableTipoviPodataka.Izvedi();
 

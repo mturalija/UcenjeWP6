@@ -1,6 +1,4 @@
-﻿
-
-namespace Ucenje
+﻿namespace Ucenje
 {
     internal class E01UlazIzlaz
     {
