@@ -1,7 +1,14 @@
 ﻿
 
 using Ucenje;
-E07Z2.Izvedi();
+E12Metode.Izvedi();
+
+//E11Z1LOSE.Ivedi(),
+
+
+//E11TryCatch.Izvedi();
+
+//E07Z2.Izvedi();
 //E07Z1.Izvedi();
 //E07ForPetlja.Izvedi();
 
