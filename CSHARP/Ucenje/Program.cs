@@ -1,7 +1,10 @@
 ﻿
 
 using Ucenje;
-E12Metode.Izvedi();
+
+E12Z1.Izvedi();
+//12Metode.Izvedi();
+//E12Metode.
 
 //E11Z1LOSE.Ivedi(),
 
